@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".IntroPage"
+    android:background="@color/background3"
+    android:navigationBarColor="@color/colorPrimary"
+    >
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="144dp"
+        android:backgroundTint="@color/buttons"
+        android:onClick="ExitButton"
+        android:text="@string/exit_1"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/acme"
+        android:text="English &amp; Spanish "
+        android:textColor="#000000"
+        android:textSize="46sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <TextView
+        android:id="@+id/text_english2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/acme"
+        android:text="Translator"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
+
+
+    <Button
+        android:id="@+id/button_en_sp"
+
+        android:layout_width="130dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="228dp"
+        android:backgroundTint="@color/buttons"
+
+        android:fontFamily="@font/acme"
+
+        android:text="English \n >>  \n Spanish"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_say"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+    <!-- android:onClick="TranslationToast" -->
+    <Button
+        android:id="@+id/button_sp_en"
+
+        android:layout_width="130dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="68dp"
+        android:backgroundTint="@color/buttons"
+        android:fontFamily="@font/acme"
+        android:text="EspaÑol \n >> \n Ingles"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_say"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

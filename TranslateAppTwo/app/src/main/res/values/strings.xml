@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Translator Application</string>
+    <string name="hint">Enter text here...</string>
+    <string name="hint_2" translatable="false">Escribe Aqui...</string>
+    <string name="translate">TRANSLATE!</string>
+    <string name="translate_2" translatable="false">TRADUCE!</string>
+    <string name="say_it">SAY IT!</string>
+    <string name="say_it_2" translatable="false">DILO!</string>
+    <string name="exit_sp" translatable="false">Salir</string>
+    <string name="exit" translatable="false">Exit</string>
+    <string name="exit_1" translatable="false">Exit - Salir</string>
+    <string name="main_activity_title" translatable="false">First Page</string>
+    <string name="toast_message_one"> Voice Coming Up </string>
+    <string name="toast_message_two"> Translation Coming Up </string>
+    <string name="title_activity_2" translatable="false">activity_2</string>
+    <string name="title_activity_activity2" translatable="false">activity2</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="no_connection" translatable="false"> No internet connection! Cannot be translated!</string>
+    <string name="ingles" translatable="false">INGLES</string>
+    <string name="español" translatable="false">ESPAÑOL</string>
+</resources>
